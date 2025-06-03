@@ -30,7 +30,7 @@ const fetchNodeStatus = async (node: string): Promise<'up' | 'down'> => {
     }
 
     return 'up';
-  } catch (err) {
+  } catch {
     return 'down';
   }
 };
