@@ -10,10 +10,12 @@ const GAIA_NODES = [
   'whisper.gaia.domains',
   'portrait.gaia.domains',
   'code.gaia.domains',
-  'rustcode.gaia.domains',
+  'rustcoder.gaia.domains',
   'qwen7b.gaia.domains',
   'qwen72b.gaia.domains',
-  'metamask.gaia.domains'
+  'metamask.gaia.domains',
+  'trees.gaia.domains',
+  'mantle.gaia.domains'
 ];
 
 const fetchNodeStatus = async (node: string): Promise<'up' | 'down'> => {
