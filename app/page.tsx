@@ -5,17 +5,21 @@ import { Badge } from '@/components/ui/badge';
 import { CheckCircle, XCircle, LoaderCircle } from 'lucide-react';
 
 const GAIA_NODES = [
-  'llama70b.gaia.domains',
-  'llama8b.gaia.domains',
   'whisper.gaia.domains',
-  'portrait.gaia.domains',
   'code.gaia.domains',
   'rustcoder.gaia.domains',
   'qwen7b.gaia.domains',
   'qwen72b.gaia.domains',
   'metamask.gaia.domains',
   'trees.gaia.domains',
-  'mantle.gaia.domains'
+  'mantle.gaia.domains',
+  'english.gaia,domains',
+  'tweet-writer.gaia.domains',
+  'news.gaia.domains',
+  'upbit.gaia.domains',
+  'bithumbofficial.gaia.domains',
+  'pastor.gaia.doamins',
+  'chemistry.gaia.domains',
 ];
 
 const fetchNodeStatus = async (node: string): Promise<'up' | 'down'> => {
